@@ -37,9 +37,6 @@ const Login = () => {
                     <img src={bgimage}
                         alt="" class=" object-cover w-full h-full  lg:block" />
                 </div>
-                <div className='z-50 absolute top-4 left-4 w-72 h-72'>
-                    <img src={logo} alt="" className='filter invert' />
-                </div>
 
                 <div>
                     <div class="absolute inset-0 bg-black opacity-30"></div>

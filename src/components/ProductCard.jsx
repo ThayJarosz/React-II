@@ -1,19 +1,12 @@
 import React, { useContext } from 'react';
-import image1 from '../assets/image1.png';
-import image2 from '../assets/image2.png';
-import image3 from '../assets/image3.png';
-import image4 from '../assets/image4.jpg';
-import image5 from '../assets/image5.jpg';
-import image6 from '../assets/image6.jpg';
-import image7 from '../assets/image7.jpg';
 import CartContext from '../contexts/CartContext';
 
-const pics = [image1, image2, image3, image4, image5, image6, image7];
+
 const ProductCard = ({ index, imageUrl, productName, price }) => {
     const { addToCart } = useContext(CartContext);
   
     const handleAddToCart = () => {
-        addToCart({ index, imageUrl: pics[index], productName, price });
+        addToCart({ index, imageUrl , productName, price });
     };
     
     return (
@@ -23,7 +16,7 @@ const ProductCard = ({ index, imageUrl, productName, price }) => {
                     <div className="relative z- overflow-hidden">
                         <div className="mb-5 overflow-hidden">
                             <img className="object-cover w-full mx-auto transition-all rounded h-72 hover:scale-110"
-                                src={pics[index]}
+                                src={imageUrl}
                                 alt="" />
                         </div>
                         <a href="#">

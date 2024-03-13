@@ -17,30 +17,139 @@ const ProductsList = ({ addToCart }) => {
             {
                 "product": {
                     "productId": "6",
-                    "productName": "Millets, Grains & Flours",
-                    "productImage": "https://d8kcpnmmec91a.cloudfront.net/categories/7.png",
+                    "productName": "A sutil arte de ligar o foda-se",
+                    "productImage": "/imgauto1.jpg",
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 1,
-                    "price": 100
+                    "price": 25.90
                 }
             },
             {
                 "product": {
                     "productId": "7",
-                    "productName": "Millets, Grains & Flours",
-                    "productImage": "https://d8kcpnmmec91a.cloudfront.net/categories/2.png",
+                    "productName": "Ame-se e cure a sua vida",
+                    "productImage": "/imgauto2.jpg",
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 50
+                    "price": 39.90
+                }
+            },
+            {
+                "product": {
+                    "productId": "8",
+                    "productName": "Você pode curar a sua vida",
+                    "productImage": "/imgauto3.jpg",
+                    "wholeSale": false,
+                    "retail": true,
+                    "orderIndex": 2,
+                    "price": 39.90
+                }
+            },
+            {
+                "product": {
+                    "productId": "9",
+                    "productName": "Por lugares incríveis",
+                    "productImage": "/imgrom1.jpg",
+                    "wholeSale": false,
+                    "retail": true,
+                    "orderIndex": 2,
+                    "price": 29.90
+                }
+            },
+            {
+                "product": {
+                    "productId": "10",
+                    "productName": "Todas as suas imperfeições",
+                    "productImage": "/imgrom2.jpg",
+                    "wholeSale": false,
+                    "retail": true,
+                    "orderIndex": 2,
+                    "price": 39.90
+                }
+            },
+            {
+                "product": {
+                    "productId": "11",
+                    "productName": "Como eu era antes de você",
+                    "productImage": "/imgromc3.jpg",
+                    "wholeSale": false,
+                    "retail": true,
+                    "orderIndex": 2,
+                    "price": 35.90
+                }
+            },
+            {
+                "product": {
+                    "productId": "12",
+                    "productName": "Cidade de vidro",
+                    "productImage": "/imgfant1.png",
+                    "wholeSale": false,
+                    "retail": true,
+                    "orderIndex": 2,
+                    "price": 45.90
+                }
+            },
+            {
+                "product": {
+                    "productId": "13",
+                    "productName": "Cidade dos ossos",
+                    "productImage": "/imgfant2.jpg",
+                    "wholeSale": false,
+                    "retail": true,
+                    "orderIndex": 2,
+                    "price": 45.90
+                }
+            },
+            {
+                "product": {
+                    "productId": "14",
+                    "productName": "Princesa mecânica",
+                    "productImage": "/imgfant3.jpg",
+                    "wholeSale": false,
+                    "retail": true,
+                    "orderIndex": 2,
+                    "price": 39.90
+                }
+            },
+            {
+                "product": {
+                    "productId": "15",
+                    "productName": "Carrie a estranha",
+                    "productImage": "/imgter1.jpg",
+                    "wholeSale": false,
+                    "retail": true,
+                    "orderIndex": 2,
+                    "price": 49.90
+                }
+            },
+            {
+                "product": {
+                    "productId": "16",
+                    "productName": "Doutor sono",
+                    "productImage": "/imgter2.jpg",
+                    "wholeSale": false,
+                    "retail": true,
+                    "orderIndex": 2,
+                    "price": 45.90
+                }
+            },
+            {
+                "product": {
+                    "productId": "17",
+                    "productName": "It a coisa",
+                    "productImage": "/imgter3.jpg",
+                    "wholeSale": false,
+                    "retail": true,
+                    "orderIndex": 2,
+                    "price": 55.90
                 }
             }
         ]
     };
 
     useEffect(() => {
-        // Use dados locais em vez de buscar de uma API
         setData(localData.response);
     }, []);
 
