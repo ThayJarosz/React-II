@@ -31,8 +31,8 @@ const App = () => {
           <Route path="/" element={<Main />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/products" element={<Home />} />
-          <Route path="/login" element={<Login />} /> {/* Adicione a rota para a página de login */}
-          <Route path="/register" element={<Register />} /> {/* Adicione a rota para a página de registro */}
+          <Route path="/login" element={<Login />} /> 
+          <Route path="/register" element={<Register />} /> 
         </Routes>
       </CartContext.Provider>
     </AuthProvider>

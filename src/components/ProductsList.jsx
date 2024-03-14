@@ -22,7 +22,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 1,
-                    "price": 25.90
+                    "price": 25.90,
+                    "description": "descrição do produto 1",
+                    "author": "Mark Manson"
                 }
             },
             {
@@ -153,7 +155,6 @@ const ProductsList = ({ addToCart }) => {
         setData(localData.response);
     }, []);
 
-
     const handleSearchChange = (query) => {
         setSearchQuery(query);
 
@@ -167,7 +168,6 @@ const ProductsList = ({ addToCart }) => {
         setFilteredData(updatedData);
     };
 
-
     const displayData = searchQuery ? filteredData : data;
 
     return (
@@ -177,7 +177,7 @@ const ProductsList = ({ addToCart }) => {
             </div>
             <div className=" gap-4 px-10 mx-auto max-w-7xl">
                 <div className='grid grid-cols-4 gap-4' >
-                    {displayData.map((item, index) => (
+                    {displayData && displayData.map((item, index) => (
                         <ProductCard
                             key={index}
                             index={index}
@@ -185,6 +185,8 @@ const ProductsList = ({ addToCart }) => {
                             productName={item.product.productName}
                             price={item.product.price}
                             addToCart={addToCart}
+                            description={item.product.description}
+                            author={item.product.author}
                         />
                     ))}
                 </div>
@@ -193,4 +195,4 @@ const ProductsList = ({ addToCart }) => {
     )
 }
 
-export default ProductsList
+export default ProductsList;
