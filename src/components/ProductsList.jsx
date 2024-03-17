@@ -35,7 +35,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 39.90
+                    "price": 39.90,
+                    "description": "descrição do produto 2",
+                    "author": "Louise Hay"
                 }
             },
             {
@@ -46,7 +48,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 39.90
+                    "price": 39.90,
+                    "description": "descrição do produto 3",
+                    "author": "Louise Hay"
                 }
             },
             {
@@ -57,7 +61,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 29.90
+                    "price": 29.90,
+                    "description": "descrição do produto 4",
+                    "author": "Jennifer Niven"
                 }
             },
             {
@@ -68,7 +74,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 39.90
+                    "price": 39.90,
+                    "description": "descrição do produto 5",
+                    "author": "Colleen Hoover"
                 }
             },
             {
@@ -79,7 +87,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 35.90
+                    "price": 35.90,
+                    "description": "descrição do produto 6",
+                    "author": "Jojo Moyes"
                 }
             },
             {
@@ -90,7 +100,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 45.90
+                    "price": 45.90,
+                    "description": "descrição do produto 7",
+                    "author": "Cassandra Clare"
                 }
             },
             {
@@ -101,7 +113,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 45.90
+                    "price": 45.90,
+                    "description": "descrição do produto 8",
+                    "author": "Cassandra Clare"
                 }
             },
             {
@@ -112,7 +126,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 39.90
+                    "price": 39.90,
+                    "description": "descrição do produto 9",
+                    "author": "Cassandra Clare"
                 }
             },
             {
@@ -123,7 +139,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 49.90
+                    "price": 49.90,
+                    "description": "descrição do produto 10",
+                    "author": "Stephen King"
                 }
             },
             {
@@ -134,7 +152,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 45.90
+                    "price": 45.90,
+                    "description": "descrição do produto 11",
+                    "author": "Stephen King"
                 }
             },
             {
@@ -145,7 +165,9 @@ const ProductsList = ({ addToCart }) => {
                     "wholeSale": false,
                     "retail": true,
                     "orderIndex": 2,
-                    "price": 55.90
+                    "price": 55.90,
+                    "description": "descrição do produto 12",
+                    "author": "Stephen King"
                 }
             }
         ]
